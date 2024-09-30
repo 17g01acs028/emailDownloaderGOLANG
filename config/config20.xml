@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<APP>
+    <USERS>
+        <USER>
+            <EMAIL encrypted="no">stevemutioo123@gmail.com</EMAIL>
+            <PASSWORD encrypted="no">$RLgs!!94Ow5n@u6_74$#</PASSWORD>
+            <SERVER>
+                <ADDRESS encrypted="no">outlook.office365.com</ADDRESS>
+                <PORT encrypted="no">993</PORT>
+                <THREAD>5</THREAD>
+                <STATUS>OK</STATUS>
+                <TYPE>IMAP</TYPE>
+            </SERVER>
+            <STATUS></STATUS>
+        </USER>
+    </USERS>
+    <DATABASE>
+        <NAME encrypted="no">sky_crm_db</NAME>
+        <HOST encrypted="no">10.200.92.16</HOST>
+        <PORT encrypted="no">5232</PORT>
+        <TYPE>postgres</TYPE>
+        <USER encrypted="no">crm</USER>
+        <PASSWORD encrypted="no"></PASSWORD>
+        <TABLE>
+            <NAME encrypted="no">email_log</NAME>
+            <FIELDS>
+                <MESSAGEID mapped="no">email_log</MESSAGEID>
+                <MID mapped="yes">email_id</MID>
+                <FROM mapped="yes">sender_email_address</FROM>
+                <TO mapped="yes">receiver_email_addresses</TO>
+                <CC mapped="no">cc</CC>
+                <SENDERNAME mapped="yes">sender_email_name</SENDERNAME>
+                <BCC mapped="no">bcc</BCC>
+                <SUBJECT mapped="yes">email_subject</SUBJECT>
+                <DATE mapped="yes">status_date</DATE>
+                <REPLYTO mapped="no">replyTo</REPLYTO>
+                <HTMLBODY mapped="no">html_body1</HTMLBODY>
+                <TEXTBODY mapped="yes">email_message_body</TEXTBODY>
+                <ATTACHMENTS mapped="yes">attachment_links</ATTACHMENTS>
+                <CUSTOM mapped="no">
+                    <FIELD name="general_flag" mapped="yes">INBOUND</FIELD>
+                    <FIELD name="originator_id" mapped="yes">3</FIELD>
+                    <FIELD name="status_code" mapped="yes">200</FIELD>
+                    <FIELD name="status_name" mapped="yes">OK</FIELD>
+                    <FIELD name="status_description" mapped="yes">OK</FIELD>
+                    <FIELD name="sender_email_id" mapped="yes">1</FIELD>
+                    <FIELD name="email_type" mapped="yes">INBOUND_EMAIL</FIELD>
+                    <FIELD name="email_content_type" mapped="yes">TEXT</FIELD>
+                    <FIELD name="attachment" mapped="yes">NO</FIELD>
+                    <FIELD name="delete_attachment" mapped="yes">NO</FIELD>
+                    <FIELD name="sensitivity" mapped="yes">PERSONAL</FIELD>
+                    <FIELD name="priority" mapped="yes">4</FIELD>
+                    <FIELD name="send_count" mapped="yes">4</FIELD>
+                    <FIELD name="request_application" mapped="yes">CRM</FIELD>
+                    <FIELD name="request_correlation_id" mapped="yes">CRM</FIELD>
+                    <FIELD name="schedule_email" mapped="yes">NO</FIELD>
+                    <FIELD name="date_created" mapped="yes">2024-08-17 14:30:00</FIELD>
+                </CUSTOM>
+            </FIELDS>
+            <STATUS></STATUS>
+        </TABLE>
+        <STATUS></STATUS>
+    </DATABASE>
+    <ATTACHMENTS>
+        <PATH>attachments</PATH>
+    </ATTACHMENTS>
+    <INTEGRITY>
+        <HASH></HASH>
+        <STATUS></STATUS>
+    </INTEGRITY>
+</APP>

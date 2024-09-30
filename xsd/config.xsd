@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <!-- Root element -->
+    <xs:element name="APP">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- USERS element containing one or more USER elements -->
+                <xs:element name="USERS">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="USER" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <!-- EMAIL and PASSWORD elements -->
+                                        <xs:element name="EMAIL">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="encrypted" type="xs:string" use="required"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="PASSWORD">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="encrypted" type="xs:string" use="required"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+
+                                        <!-- SERVER element -->
+                                        <xs:element name="SERVER">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="ADDRESS">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="encrypted" type="xs:string" use="required"/>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="PORT">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="encrypted" type="xs:string" use="required"/>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="STATUS" minOccurs="0" type="xs:string"/>
+                                                    <xs:element name="TYPE" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+
+                                        <!-- MAILS element -->
+                                        <xs:element name="MAILS">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="COUNT" minOccurs="0" type="xs:string"/>
+                                                    <xs:element name="INITIAL_COUNT" minOccurs="0" type="xs:string"/>
+                                                    <xs:element name="FIRST" minOccurs="0" type="xs:string"/>
+                                                    <xs:element name="LAST" minOccurs="0" type="xs:string"/>
+                                                    <xs:element name="CURRENT" minOccurs="0" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+
+                                        <!-- STATUS element -->
+                                        <xs:element name="STATUS" minOccurs="0" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- DATABASE element -->
+                <xs:element name="DATABASE">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="NAME">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="encrypted" type="xs:string" use="required"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="HOST">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="encrypted" type="xs:string" use="required"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="PORT">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="encrypted" type="xs:string" use="required"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="TYPE" type="xs:string"/>
+                            <xs:element name="USER">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="encrypted" type="xs:string" use="required"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="PASSWORD">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="encrypted" type="xs:string"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <!-- TABLE element -->
+                            <xs:element name="TABLE">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="NAME">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="encrypted" type="xs:string" use="required"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="FIELDS">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="MESSAGEID" type="xs:string"/>
+                                                    <xs:element name="FROM" type="xs:string"/>
+                                                    <xs:element name="TO" type="xs:string"/>
+                                                    <xs:element name="CC" type="xs:string"/>
+                                                    <xs:element name="BCC" type="xs:string"/>
+                                                    <xs:element name="SUBJECT" type="xs:string"/>
+                                                    <xs:element name="DATE" type="xs:string"/>
+                                                    <xs:element name="REPLYTO" type="xs:string"/>
+                                                    <xs:element name="HTMLBODY" type="xs:string"/>
+                                                    <xs:element name="TEXTBODY" type="xs:string"/>
+                                                    <xs:element name="ATTACHMENTS" type="xs:string"/>
+                                                    <xs:element name="CUSTOM" minOccurs="0" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="fieldName" type="xs:string" use="required"/>
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="STATUS" minOccurs="0" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="STATUS" minOccurs="0" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- INTEGRITY element -->
+                <xs:element name="INTEGRITY">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="HASH" minOccurs="0" type="xs:string"/>
+                            <xs:element name="STATUS" minOccurs="0" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<APP>
+    <USERS>
+        <USER>
+            <AUTHTYPE>xoauth</AUTHTYPE>
+            <EMAIL encrypted="yes">
+                o6sP3YeMlhCRfpXSjokZ0fq3n3zGTKQ2EzTof6ygqxNr3NxTFoioHS4juQyraEBMNOm4Q5K8eIDgplnfLL3YcAcQUEJDWsn2WxQhMWo9S9ScPz6OsxBWKAWejKsJDNeoYq0K7J5TTQn6a5/9OGl6eI0BAic86a+/z+8vPB/AgrYgmmwF9jMwMRaVn/N8JAIaICyFs5VC0k6fufWpmYi2rC3XabYWiK6n6PmJtuRCYYvALxlExGaB6myI7dGWQNoZv3cW3M1J7N1MZYGUVuOFtCJ7IM/DzNYNLmXtC9cybgUO3eA0tSHMCmMnsHst2SaZDhS7/zKZlNMnogM4PvY4ZQ==
+            </EMAIL>
+            <PASSWORD encrypted="yes">
+                n5t3iGOEXj+tINh2gfKBjnSL/MlOmnzsprrD0cm6jw+n7hSZNXwVxSL+hVfLErq8I8q5lorqmJsQAglLzHvHU7dv8gnwd0O2iio4ye5Y3zSMim6xnmX6+629pgAOf60YMiCX8HZnBzch2GSh/4SqCH0PAFv56l1WaRm2mmqzZ6APRivsnfrCTpLA4XZ5AKeJTti1jhTU5sbEPCIUFBEvDUJZSd7hQHfVpePKtUPKCOk/DEO2O++71kNywm0DDvttpLYdApY54VIYVYrblfgQaW/LCyQtxuqz2OULzkX70quOBQTVGBViGE2HwWK4fOGMrH0+yP+13pM8WAIngbRvdw==
+            </PASSWORD>
+            <CLIENTID encrypted="yes">
+                qNcoAegt5Rfdv/6+Hh2GkgVw26+/Os5Hz+NWx/xbxDnk2WAvm/77Am4drOU99uzAkmjX1Z2bd17EQm+NZZJDxDbs6axM6hmvY93NwzbDUNj8rh4UAfcFPUBZ0YinuF7REi2TSKHUxrQaDvFLkuClfk2+GAqvZL4zlVNQpi7TTxJTuzOSyNrI2sPzXKEbX7osgeaiTNmKjI/WM94L/u9XpoH/eFaZb2mARi0G/r0fUogCBB5Gic1XUJMKmYKOVsCCXrNXdKAyRc3aOx38piBDzgLP2GPrMk3KiiWJdDu0wxZ7If4O/aSlNXqLSuUiaH9CkI3hV43ZQtg5nJArGCemOQ==
+            </CLIENTID>
+            <TENANTID encrypted="yes">
+                Za1RrLJAPBqI/dqoozFq12Ta0XB/6rQdCgjy4r54d4dTQ3b3ce8VIRiUhZM2W8PG2Glf8IOSYQiXOshvseJCxxFirWtY3m6z1BC/TmsHpBKf+AXixPHDkr1X7CSM8A5JUqHRdNmWjdqqfwhbN+w4R35FqA3LoWNORnn8E3ZCyAEPMj5ofHselWU4n7elN5pEwxO/CdptqtdOdTFT+PeyBtN3/nCU5f/DpicsSvPS0KSZ6GJuFIyaUq3mmSFW75uj8HH7mL2RIif91rekuPDvT6U1CXwqI9qgTCY//R5OMdHX49467FxthgClyMyGWKW2c0L8dBPK3/5oVgMphgkoBw==
+            </TENANTID>
+            <CLIENTSECRET encrypted="yes">
+                mQ72n6qPQ2aM9KrObJHYXunLiF7yplMM34B7f7QGDxnnL9dtbmuPzt9B6HEk/lSPaxgjnJYo/ZnScR1PMfCz0uiRZIFNrXHe9VYh/pV4KNiboFTClOCo1ls5PBT+MfQdAR2Gt5RKpl766IsN1kEqVlbTQ9zsXtrRhb1i4Lh+LJH0AAIilhayia1ko4tGyXSTSod27NdF+dzYkQsJMYVk9Db+iZY8jBqadZE5/v7SkhZYAAKfkYl8wTK/T+hAEOznh1GmKzyJj83gPJoa8/KIw1EoNhOaZLaBed8Qz7K6GoEsQM1zNkoHJCVrg/FERajiqrWA/88v/IQ0T17hoKMUIQ==
+            </CLIENTSECRET>
+            <GRANTTYPE encrypted="yes">
+                guVyHMY11ML3k73RCAm1OYIGELmsX1EytKGckb7SRDax+ihdKV09GWrGF9dqKvfPRB45OQbdh5sC85BAf1aKZ2wbfqfIFKUPFXQQwUxB/BDCRmNHwaeHodc/4HQxIbgjQwLuAmfm+77bQfkMIHYYXvHhUammBzRlf0vy9uw3Gv6MU2+sGguafqrtQjQl07rNvubfYDOuKMDciGTllEIFBBdY1MESoB6QxTHwNhweMSlb5gjSYta96AQEvrc8vnRU6nSq0zpBbH8VV9OeLmSpyiN7iIlq7d8azwXGNUThnZO4zLsiA6ykIWd9nULoVFpMB3mPAVULlvV+3BH4+tinfQ==
+            </GRANTTYPE>
+            <SCOPE encrypted="yes">
+                SETAMR3UIBbV9+6zsS38O4b/Q3S1QBYdIgNUMXJ1VmWbEtFxeSDkL8Bm7HoWsfBV5eGhSG3uMtbDdCQImzcerxBOSEXxstL/JZVbtrWxqW+CC0KtrQgcZNgxM8fJUgvXyIXpnr++Ljlc4NZ/DTvOgi+BJWmHdFsjys1Ps2gPIKe1lTbEcrM8fo7ebHCkAbYmnWQ11A9RTNJMe33fdoADqYws7pqTeHU4WkepfUZL2pwlPH4PMM9N24jAwC/XneJtNApCisFGymy1TAkxoHJB1dm/kWntMeXujR4crdMlYrHLcPAIZEDusJGrEUkOuZ6LsazSkUVJETkCaWU33vYWlw==
+            </SCOPE>
+            <OAUTHTOKENURL encrypted="yes">
+                lY/m6xJULiXWMrwsrMVKolGTpzy3eT7BJ28svTJzj0MqusthNBGWHQ/039L918q0o1fQSBWeojDuZrbDOsdX9NJgfblnEx4ledmdhrGpFi7bJ3H7ClvNmd2lsqWPDXSMBX9PluI2fu8Px2BTtIyDCIk3uH8SsaOkCnRqvncAki+8pzGSWfo89T3S4xjTW66dQI5TeOQJwoRcpa5sYeEfFooHZQG5F2ddLsUm7cyE0dhETdLhhPwltJAOPEXhqicAQK0ot0LIJ+7iVsDJ+1dNFcx7LVOek53adFkkByivhMRjtTbB16FDFLQBk4W8cFhYgubF0Pp9JE/J08kU46fKIQ==
+            </OAUTHTOKENURL>
+            <SERVER>
+                <ADDRESS encrypted="yes">
+                    b5eVYPngv9kAoeIv7Jk4Xq82GMQvjtzct6JlkSPiiSZIKyJko5bmcC2wxW7ZeZCf/caU0dd48mjn09UxoSDfcL4oNLX3IGdCVYh+jvkHT55+ChUU3oVBMMUrlghaXEkPbBt7P9+rtANCCf2Jsr1ydSIAXGeOMbOVPh81PJnIJNPj9LwfSXR74XfMbE/hWNIA3qLjqSKMiC2akm2ctxx17mt7MaPAuxNZN56si1Zax4ohkxACLtjpIBxVjrzMkU3wGCOe49gdiCZBgp3/qqNjrynOcUrVsAlDNMAs1IwRx5t0A8HFi3bwllaDCokmPC56GDEhvyUC6qj1MxLfCIdLvg==
+                </ADDRESS>
+                <PORT encrypted="yes">
+                    IilwWkHGsD3Qm5gBHgJr4V/+DynK3s7XOR5lfir2o+FFATonp2JN/rLRpdMgMBG0xboin1V/qn0VsRoZa/FwC6IqVGcZMe0QxAzY+2wJX8fCViAlVHTtDfZz+U+ef615o5MhzqbkmeT3xD9MOrC2yW7AsJQM68E/H8zg1IA5GGDqLle4XJzaPqJ36FIv8IiKCju5JdvtG2tzkUo47jV8yjfkQ/YFMB2vLz+tClLPUahku1kT0yKlL7Xd3rmJ+pNRAbajDDvDjBFDm7r0Quto57QMfHFraYFmgEtd6Fbyax3k4dzCjbcyNX5EAkTbKyHnlUjKWxFIAHbBI3j7/qYBIA==
+                </PORT>
+                <THREAD>10</THREAD>
+                <STATUS>OK</STATUS>
+                <TYPE>IMAP</TYPE>
+            </SERVER>
+            <STATUS>OK</STATUS>
+        </USER>
+    </USERS>
+    <DATABASE>
+        <NAME encrypted="yes">
+            RWQGN3gP8RZWAICp1kSSotVkcXAMielwy0arWqCG3g59IrSZkM4EIKAolzieygQS4pseHvzabyILzaAMJNzpbTD8wPDbLHiMN5r0rnpwKKkVxJuWEJaGAJnDH2ZjwtztYPkMqZ0xQk8TUrxWNCRC0UhL3FJ3xYrDyme39gaC0eD0KZihNSS3KRiNHdzjK8vzlIiZsS70z7lHH8eCZoTFx0KBb8Iqsyp5CkQvN7HtGOQiMMOwYKUhXtyrcGsgc2ntsG2H00Ro/rqimBf8pswr2buP0MK1pwzIE0wr1bzkrW+ffrEWb7P0EKyE6AizZ7OelnsjZnG8tS+oMXV6IPAzbQ==
+        </NAME>
+        <HOST encrypted="yes">
+            S5uBCmQhvMoHv00giET6EQgnuvaT7QCJkvtflfGPR7FpPg/mOg+2geayIMa/aotlFHXMToaB+a5F+2ewSDMC6Yycy3EzG5uxsZSsGMfWvE4gZtfVb7sGFJ/CS6NVmcswtzBFvuUfKJsVRzZ0bTvOdCOqIpLKLva5jUlMzOEVUGtdf6i24Bz9XKIj+o/v6xbUsxIJgfjrnq+PS48HeRz09KXW2cMQI6Vj43G2u0SqAXIySbRAHrLJ6Iz1QHzWfYCUUac66MrNYOVAMCuE5q5n0P0PPTMN7NyfpvjfzRaTMwvfc+ZbkmdvjiUbIeQGM0FhX14GQ1nAwNxaj0QHNAAqQQ==
+        </HOST>
+        <PORT encrypted="yes">
+            ggWzS8zEduG214yzm4MxGRU3XS2KQH+ui9UPAizP3jCDykqqlTJ6F2eaKNIu3NqCERXXKA2VczA1IPslPbSG5/Pxjofp0CqxsiNpAb2noqZdwK76Z82Ea2hL9e482Qmkifr4KF/McZSw0Vv/9wiuR9DX+9HO/o819uExAIAKjl/Q6NhUXN8hGXnQemSGpUS/O6mm1LPsnJiJDTwEP7ld5eWbkHlUNSS4TBINL41zQ2JMkccr/vdg6DvuE/KjUZ+2IgSYGYlo7jfwisJwoRDEg6pXONYJYct0XuUEEVntGDxhc5qiF6FwWETMZ6TyouenJb69qZPiN+yYArohaJqW7w==
+        </PORT>
+        <TYPE>postgres</TYPE>
+        <USER encrypted="yes">
+            Wufb4zVzZ00yX5Q0K/UcD0JQYEl4j0duHCT0pZBFmv3c4FcCLkCkLa84y2BPGYmHblUIjyliX0EQmtOQANOm9z77HTpZHrbym7DIhhne8z/KVJ2QV/41epanhfcBBNVvw6SvfBNsyEaVuxvDI/58/4pXo1YmCjInZiUbnDtcYiXn8nwGnfYc0ATstnxNmXZaYb5EQ2aT1s17TE+3QnIcixepcjzrCqRlpoVb5wFwAFEA4CSjR2Yx/AMkTIvTyv5h98oLJq1TK4VPdy4nNw0fUo9jEBO5M6QzAAMbET0ZTJ6dgj2P5yB4jlHUYgFCLbOk21P2RrWOEzXP3g7yYMKSKQ==
+        </USER>
+        <PASSWORD encrypted="yes">
+            i4z7Qz7wIKZHIyAjAx78c1daVhsWgDhIgULlpMZY04PZ5L6wKxAqoQMqZenXFNv5PiPsw4s3XXYlFZma42YzsNE7uePVovQ5q5NaGJs2Iwo5CNIvzzWT/RRfBbFbCPbh4V2Cpqy6Rp0IMrtTVbMUIAs8E+xcpAaM3nPLmwvTD6DMtZ/QIMNAkSjzqbAuiydksUrsW5eh/tUc9G4Rhw6Ab65Luu3KQxUyD57FeOeOX8ppn+1uanGj85J5X88kPI5PELuR+q+/zPZuLiBe62L0L4RXmYF/nPml3mKtb8WeKjfXjafFwOVbnZsUg4OxHeYuNFCuY6xtSlOhXbPDiMgEdQ==
+        </PASSWORD>
+        <MAXCONNECTIONS>20</MAXCONNECTIONS>
+        <TABLE>
+            <NAME encrypted="no">email_log</NAME>
+            <FIELDS>
+                <MESSAGEID mapped="no"></MESSAGEID>
+                <MID mapped="yes">email_id</MID>
+                <FROM mapped="yes">sender_email_address</FROM>
+                <TO mapped="no">receiver_email_addresses1</TO>
+                <CC mapped="no">cc</CC>
+                <SENDERNAME mapped="yes">sender_email_name</SENDERNAME>
+                <BCC mapped="no">bcc</BCC>
+                <SUBJECT mapped="yes">email_subject</SUBJECT>
+                <DATE mapped="yes">status_date</DATE>
+                <REPLYTO mapped="no">replyTo</REPLYTO>
+                <HTMLBODY mapped="no">email_message_body1</HTMLBODY>
+                <TEXTBODY mapped="yes">email_message_body</TEXTBODY>
+                <ATTACHMENTS mapped="yes">attachment_links</ATTACHMENTS>
+                <CUSTOM mapped="no">
+                    <FIELD name="general_flag" mapped="yes">OUTBOUND</FIELD>
+                    <FIELD name="originator_id" mapped="yes">3</FIELD>
+                    <FIELD name="status_code" mapped="yes">3</FIELD>
+                    <FIELD name="status_name" mapped="yes">OK</FIELD>
+                    <FIELD name="status_description" mapped="yes">OK</FIELD>
+                    <FIELD name="sender_email_id" mapped="yes">1</FIELD>
+                    <FIELD name="email_type" mapped="yes">INBOUND_EMAIL</FIELD>
+                    <FIELD name="email_content_type" mapped="yes">HTML</FIELD>
+                    <FIELD name="attachment" mapped="yes">{if ({{ATTACHMENTS}} != &#34;&#34;) {YES} else {NO}}</FIELD>
+                    <FIELD name="delete_attachment" mapped="yes">NO</FIELD>
+                    <FIELD name="sensitivity" mapped="yes">PERSONAL</FIELD>
+                    <FIELD name="priority" mapped="yes">4</FIELD>
+                    <FIELD name="send_count" mapped="yes">4</FIELD>
+                    <FIELD name="request_application" mapped="yes">high</FIELD>
+                    <FIELD name="request_correlation_id" mapped="yes">{{MID}}</FIELD>
+                    <FIELD name="source_application" mapped="yes">high</FIELD>
+                    <FIELD name="source_reference" mapped="yes">high</FIELD>
+                    <FIELD name="schedule_email" mapped="yes">NO</FIELD>
+                    <FIELD name="receiver_email_addresses" mapped="yes">{bcc:{ {{BCC}} },cc:{ {{CC}} },to:{ {{TO}}} }
+                    </FIELD>
+                    <FIELD name="date_created" mapped="yes">2024-08-17 14:30:00</FIELD>
+                </CUSTOM>
+            </FIELDS>
+            <STATUS>OK</STATUS>OK
+        </TABLE>
+        <STATUS>OK</STATUS>
+    </DATABASE>
+    <ATTACHMENTS>
+        <PATH>attachments</PATH>
+    </ATTACHMENTS>
+    <INTEGRITY>
+        <HASH>fb935fb7e7ce6f07520afeff5129c854c44cb9ded6910f9869f8cfec6c83ea5a</HASH>
+        <STATUS>OK</STATUS>
+    </INTEGRITY>
+</APP>
